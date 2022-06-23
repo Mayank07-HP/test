@@ -1,13 +1,44 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #000;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: "Bergen-text-bold";
+  src: url("./assets/fonts/bergen-text/BergenText-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Bergen-text-bold-italic";
+  src: url("./assets/fonts/bergen-text/BergenText-BoldItalic.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "Bergen-text-italic";
+  src: url("./assets/fonts/bergen-text/BergenText-Italic.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "Bergen-text-regular";
+  src: url("./assets/fonts/bergen-text/BergenText-Regular.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "Bergen-text-semibold";
+  src: url("./assets/fonts/bergen-text/BergenText-SemiBold.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "Bergen-text-semibold-italic";
+  src: url("./assets/fonts/bergen-text/BergenText-SemiBoldItalic.otf")
+    format("otf");
 }
